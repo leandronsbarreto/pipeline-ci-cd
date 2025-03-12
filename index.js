@@ -1,2 +1,2 @@
 // index.js
-console.log("Hello, Haeger Consulting!");
+console.log("Hello, DevOps!");
