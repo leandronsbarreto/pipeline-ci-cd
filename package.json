@@ -1,0 +1,20 @@
+{
+  "name": "pipeline-ci-cd",
+  "version": "1.0.0",
+  "description": "A simple Node.js project demonstrating CI/CD pipeline setup using GitHub Actions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leandronsbarreto/pipeline-ci-cd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leandronsbarreto/pipeline-ci-cd/issues"
+  },
+  "homepage": "https://github.com/leandronsbarreto/pipeline-ci-cd#readme"
+}
