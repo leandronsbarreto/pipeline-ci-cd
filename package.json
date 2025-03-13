@@ -1,6 +1,7 @@
 {
     "name": "pipeline-ci-cd",
     "version": "1.0.0",
+    "type": "module",
     "description": "A simple Node.js project demonstrating CI/CD pipeline setup using GitHub Actions.",
     "main": "index.js",
     "scripts": {
