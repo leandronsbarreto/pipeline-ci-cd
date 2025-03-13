@@ -5,7 +5,7 @@
     "description": "A simple Node.js project demonstrating CI/CD pipeline setup using GitHub Actions.",
     "main": "index.js",
     "scripts": {
-        "test": "mocha"
+        "test": "mocha ./test/**/*.test.js"
     },
     "repository": {
         "type": "git",
