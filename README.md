@@ -35,10 +35,7 @@ Before getting started, you need to have **Node.js** and **npm** installed on yo
 
 ## Running Tests Locally
 
-To run the tests locally, use the following command:
-
-bash
-npm test
+To run the tests locally, use the following command: npm test
 
 This will execute Mocha and run all the test files located in the test/ directory. The tests will use Chai for assertions.
 
@@ -56,3 +53,15 @@ This project is integrated with GitHub Actions to automate testing. The configur
 ## Workflow Trigger
 
 The workflow is triggered on any push to the main branch or pull requests targeting the main branch.
+
+/D:/DevOps/pipeline-ci-cd/
+├── node_modules/         # Node.js dependencies
+├── .github/              # GitHub Actions workflow files
+│   └── workflows/
+│       └── ci.yml        # GitHub Actions CI configuration
+├── test/                 # Folder for test files
+│   └── calculations.test.js  # Example test file
+├── package.json          # Project dependencies and scripts
+├── index.js              # Main entry point for the app
+└── .gitignore            # Files to be ignored by Git
+
