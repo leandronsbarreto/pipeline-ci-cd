@@ -37,5 +37,22 @@ Before getting started, you need to have **Node.js** and **npm** installed on yo
 
 To run the tests locally, use the following command:
 
-```bash
+bash
 npm test
+
+This will execute Mocha and run all the test files located in the test/ directory. The tests will use Chai for assertions.
+
+## CI/CD Pipeline
+
+This project is integrated with GitHub Actions to automate testing. The configuration is located in the .github/workflows/ci.yml file.
+
+## Key Steps in the CI Pipeline:
+
+1. **Checkout the Code**: The latest code is checked out from the repository.
+2. **Setup Node.js**: The Node.js environment is set up using actions/setup-node.
+3. **Install Dependencies**: The project dependencies are installed using npm.
+4. **Run Tests**: The tests are run using Mocha to ensure the code is correct.
+
+## Workflow Trigger
+
+The workflow is triggered on any push to the main branch or pull requests targeting the main branch.
