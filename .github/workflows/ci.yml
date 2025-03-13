@@ -22,4 +22,4 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Run tests
-        run: mocha './test/**/*.test.js'
+        run: test './test/**/*.test.js'
