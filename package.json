@@ -18,7 +18,7 @@
     },
     "homepage": "https://github.com/leandronsbarreto/pipeline-ci-cd#readme",
     "devDependencies": {
-        "chai": "^5.2.0",
+        "chai": "^4.3.4",
         "mocha": "^11.1.0"
     }
 }
