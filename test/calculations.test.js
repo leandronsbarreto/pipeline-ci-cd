@@ -8,6 +8,6 @@ describe('Calculation Tests', () => {
 
   it('should multiply numbers correctly', () => {
     const result = 2 * 3;
-    assert.strictEqual(result, 5); // Test fails
+    assert.strictEqual(result, 6); // Test fails
   });
 });
