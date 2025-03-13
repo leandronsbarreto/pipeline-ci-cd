@@ -13,6 +13,6 @@ describe('Calculation Tests', () => {
 
   it('should fail on incorrect calculation', () => {
     const result = 2 + 3;
-    assert.strictEqual(result, 5); // Esse teste vai falhar
+    assert.strictEqual(result, 6); // Esse teste vai falhar
   });
 });
