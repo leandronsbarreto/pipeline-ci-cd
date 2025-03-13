@@ -35,7 +35,11 @@ Before getting started, you need to have **Node.js** and **npm** installed on yo
 
 ## Running Tests Locally
 
-To run the tests locally, use the following command: npm test
+To run the tests locally, use the following command: 
+
+```bash
+npm test
+```
 
 This will execute Mocha and run all the test files located in the test/ directory. The tests will use Chai for assertions.
 
@@ -64,4 +68,3 @@ The workflow is triggered on any push to the main branch or pull requests target
 ├── package.json          # Project dependencies and scripts
 ├── index.js              # Main entry point for the app
 └── .gitignore            # Files to be ignored by Git
-
